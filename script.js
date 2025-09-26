@@ -1,2 +1,1 @@
-// Placeholder for future enhancements
-console.log("Portfolio loaded successfully!");
+console.log('Portfolio site loaded successfully!');

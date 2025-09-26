@@ -1,12 +1,49 @@
-/* Basic Reset */
-* {margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif;}
-body {line-height: 1.6; background: #f9f9f9; color: #333;}
-header {background: #222; color: #fff; text-align: center; padding: 3rem 1rem;}
-header h1 {font-size: 2.5rem; margin-bottom: 0.5rem;}
-header p {font-size: 1.2rem; margin-bottom: 1rem;}
-header .buttons a {display: inline-block; margin: 0.5rem; padding: 0.7rem 1.5rem; background: #ff6600; color: #fff; border-radius: 5px; text-decoration: none; transition: 0.3s;}
-header .buttons a:hover {background: #e65c00;}
-.container {width: 80%; max-width: 900px; margin: 2rem auto;}
-h2 {margin-bottom: 1rem; color: #444;}
-ul {list-style: disc; padding-left: 1.5rem;}
-footer {text-align: center; padding: 1rem; background: #222; color: #fff; margin-top: 2rem;}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.header {
+  text-align: center;
+  background-color: #2e8b57;
+  color: white;
+  padding: 2rem;
+}
+
+.navbar {
+  background-color: #1f1f1f;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.section {
+  padding: 2rem;
+}
+
+.footer {
+  background-color: #2e8b57;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
